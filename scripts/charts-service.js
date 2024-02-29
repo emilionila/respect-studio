@@ -6,7 +6,7 @@ class ChartsService{
 
     async getCharts (){
         if (!this.charts){
-            this.charts = await( await fetch('/charts.json') ).json();
+            this.charts = await( await fetch('../charts.json') ).json();
         }
         return this.charts;
     }
