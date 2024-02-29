@@ -1,0 +1,185 @@
+.partner {
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.heading {
+    margin-bottom: 57px;
+}
+
+.h2 {
+    color: #E63E3A;
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 96%;
+    text-align: right;
+
+    margin-bottom: 32px;
+}
+
+.heading-subtitle {
+    color: #E63E3A;
+    text-align: right;
+
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 110%;
+
+    margin-bottom: 40px;
+}
+
+hr {
+    background: #E63E3A;
+    height: 1px;
+    border: none;
+}
+
+.subtitle {
+    color: #E63E3A;
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120.5%;
+
+    margin-bottom: 19px;
+}
+
+.card-container {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card {
+    padding: 40px 120px 37px 45px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 650px;
+    width: 70%;
+}
+
+.card-1 {
+    transition: 1s;
+    background-color: #e63e3a;
+}
+
+.card-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #101820;
+    transform: translate(50%, 0);
+    transition: 1s ease-in-out;
+}
+
+.card-2:hover {
+    transform: translate(0, 0);
+
+    .disabled-color {
+        color: #FFFFFF;
+    }
+
+    .card-2-svg {
+        fill: #fff;
+        stroke: #fff;
+    }
+
+    .disabled-color {
+        color: #FFFFFF;
+    }
+}
+
+.number {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+
+    margin-bottom: 12px;
+    margin-left: 5px;
+}
+
+.h3 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 400;
+
+    margin-bottom: 50px;
+}
+
+.card-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: #FFF;
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120.5%;
+
+    margin-right: 112px;
+}
+
+.card-additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: normal;
+}
+
+.additional-btn {
+    cursor: pointer;
+    color: #E63E3A;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    padding: 13px 30px;
+    background-color: #101820;
+    border: none;
+}
+
+.additional-btn-2 {
+    cursor: pointer;
+    color: #101820;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    padding: 13px 30px;
+    background-color: #E63E3A;
+    border: none;
+}
+
+.disabled-color {
+    color: #5D646B;
+    transition: 1s ease-in-out;
+}
+
+.card-1-svg {
+    fill: #fff;
+    stroke: #fff;
+    transition: 1s ease-in-out;
+}
+
+.card-2-svg {
+    fill: #5D646B;
+    stroke: #5D646B;
+    transition: 1s ease-in-out;
+}
+
+.active-color {
+    transition: 1s ease-in-out;
+
+}

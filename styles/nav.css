@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 92px;
+}
+
+.nav-logo {
+    max-width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-link {
+    color: #101820;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-btn{
+    display: flex;
+    padding: 13px 18px 13px 103px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 55px;
+
+    background: #101820;
+    color: #E63E3A;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+}

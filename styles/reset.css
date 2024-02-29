@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Suisse, sans-serif;
+}
+
+html,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ol,
+ul,
+li,
+form,
+label,
+main,
+footer,
+header,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 1366px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+label {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}

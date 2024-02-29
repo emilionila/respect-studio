@@ -1,0 +1,100 @@
+.charts {
+    padding: 108px 20px 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.charts-title {
+    color: #101820;
+
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 96%;
+}
+
+.horizontal-charts {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.horizontal-chart {
+    height: 93px;
+    background-color: #101820;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding: 16px 42px 16px 119px;
+}
+
+.chart-info {
+    color: #E63E3A;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120.5%;
+    text-align: right;
+}
+
+.chart-number {
+    color: #E63E3A;
+
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 120.5%;
+}
+
+.chart-1 {
+    justify-content: end;
+}
+
+.chart-2 {
+    width: 70%;
+    align-self: end;
+}
+
+.chart-4 {
+    width: 55%;
+    align-self: end;
+}
+
+.vertical-charts-container {
+    gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    margin-bottom: 2px;
+}
+
+.vertical-chart-container{
+    position: relative;
+}
+
+.chart-subtitle {
+    position: absolute;
+    top: 58px;
+
+    color: #101820;
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120.5%;
+}
+
+.vertical-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vertical-chart-number {
+    color: #E63E3A;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 40px;
+}
+
+.vertical-chart-item {
+    background-color: #e63e3a;
+    width: 100%;
+}
